@@ -10,6 +10,7 @@
 #include <thread>
 
 #ifdef PROCON_DEBUG
+#include <fmt/format.h>
 #define PROCON_LOG(fstr, ...) fmt::print("[PROCON]" fstr "\n", ##__VA_ARGS__)
 #else
 #define PROCON_LOG(fstr, ...)
