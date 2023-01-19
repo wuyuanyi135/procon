@@ -1,0 +1,8 @@
+BasedOnStyle: Google
+DerivePointerAlignment: false
+PointerAlignment: Left
+ColumnLimit: 0
+BinPackArguments: false
+BinPackParameters: false
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
